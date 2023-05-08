@@ -1,0 +1,31 @@
+route-name: 
+  dest_range: 0.0.0.0/0
+  priority: 1000
+  tags: ['some-tag','other-tag'] 
+  
+  next_hop_gateway: 
+  
+  next_hop_instance:
+  next_hop_instance_zone:
+  
+  next_hop_ip: 10.178.4.2
+  
+  next_hop_vpn_tunnel:
+  
+  next_hop_ilb:
+
+route-name2: 
+  dest_range: 0.0.0.0/0
+  priority: 1000 
+  tags: ['some-tag','other-tag'] 
+  
+  next_hop_gateway: 
+  
+  next_hop_instance: instance-bastion
+  next_hop_instance_zone: asia-northeast3-a
+  
+  next_hop_ip: 
+  
+  next_hop_vpn_tunnel:
+  
+  next_hop_ilb:
